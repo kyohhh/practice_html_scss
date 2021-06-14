@@ -1,0 +1,117 @@
+body {
+  color: #000000;
+  font-family: "Hiragino Mincho Pro", serif;
+  // ヘッダー
+  header {
+    background-color: #000000;
+    display: flex;
+    .header-logo {
+      width: 193px;
+      height: 50px;
+      margin: {
+        top: 15px;
+        bottom: 15px;
+        left: 10px;
+      }
+    }
+    .header-nav {
+      margin: {
+        left: auto;
+      }
+      .nav {
+        .nav-list {
+          display: flex;
+          margin: {
+            right: 25px;
+            top: 28px;
+            bottom: 20px;
+          }
+          .nav-item {
+            font-size: 22px;
+            &:nth-child(2) {
+              margin: {
+                left: 25px;
+              }
+            }
+            a {
+              color: #ffffff;
+            }
+          }
+        }
+      }
+    }
+  }
+  // メイン
+  main {
+    // トップ
+    .top {
+      background-image: url(../image/top-bg.png);
+      background-size: cover;
+      background-position: center;
+      height: 551px;
+      .top-title {
+        font-size: 60px;
+        padding: {
+          top: 240px;
+          bottom: 240px;
+        }
+        text-align: center;
+      }
+    }
+    // コース
+    .course {
+      .inner {
+        .cmn-title {
+          font-size: 40px;
+          text-align: center;
+          padding: {
+            top: 50px;
+            bottom: 40px;
+          }
+        }
+        .course-cont {
+          .course-list {
+            margin: {
+              left: 30px;
+              right: 30px;
+            }
+            display: flex;
+            justify-content: center;
+            .course-item {
+              width: 290px;
+              &:nth-child(n + 2) {
+                margin: {
+                  left: 20px;
+                }
+              }
+              .course-item-image {
+              }
+              .course-item-text {
+                p {
+                }
+                .course-item-box {
+                  p {
+                  }
+                }
+              }
+            }
+          }
+        }
+        .course-btn {
+          a {
+          }
+        }
+      }
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
