@@ -14,7 +14,7 @@
 <body <?php body_class(); //bodyタグにページの種類に応じたクラス名を与える ?>>
     <!-- ヘッダー -->
     <header class="header">
-        <img class="header-logo" src="<?php echo get_template_directory_uri(); //使用中のテーマURLに置き換わるb?>./image/logo.png" alt="コーディングスクールのロゴ">
+        <img class="header-logo" src="<?php echo get_template_directory_uri(); //使用中のテーマURLに置き換わるb?>/image/logo.png" alt="コーディングスクールのロゴ">
         <div class="header-nav">
             <nav class="nav">
                 <ul class="nav-list">
