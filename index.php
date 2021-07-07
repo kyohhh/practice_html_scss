@@ -98,11 +98,5 @@
         </section>
     </main>
 
-    <!-- フッター -->
-    <footer class="footer">
-        <div class="inner">
-            <p>&copy;Copyright2021Coding School All Rights Reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+<?php get_footer(); //footer.phpを取得 PHPで終了するので閉じタグは不要
+// PHPファイルは、最後の行がPHPの記述で終わる場合は、終了タグを書かないことが推奨されている。
