@@ -1,112 +1,118 @@
-/*
-Theme Name: Cording School
-Author: kyohey
-Description: 架空のプログラミングスクールのホームページ
-Version: 5.7.2
-*/
-
 body {
-  color: #000000;
+  color: #000;
   font-family: "Hiragino Mincho Pro", serif;
 }
 
-body header {
-  background-color: #000000;
-  display: -webkit-box;
-  display: -ms-flexbox;
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #000;
   display: flex;
 }
 
-body header .header-logo {
+.header-logo {
   width: 193px;
-  height: 50px;
+  margin-left: 10px;
   margin-top: 15px;
   margin-bottom: 15px;
-  margin-left: 10px;
 }
 
-body header .header-nav {
+.header-nav {
   margin-left: auto;
 }
 
-body header .header-nav .nav .nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.nav-list {
   display: flex;
   margin-right: 25px;
   margin-top: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-body header .header-nav .nav .nav-list .nav-item {
-  font-size: 22px;
-}
-
-body header .header-nav .nav .nav-list .nav-item:nth-child(2) {
+.nav-item:nth-child(2) {
   margin-left: 25px;
 }
 
-body header .header-nav .nav .nav-list .nav-item a {
-  color: #ffffff;
+.nav-item a {
+  color: #fff;
+  font-size: 22px;
 }
 
-body main .top {
-  background-image: url(../image/top-bg.png);
+.top {
+  background-image: url(image/top-bg.png);
   background-size: cover;
   background-position: center;
   height: 551px;
 }
 
-body main .top .top-title {
+.top-title {
   font-size: 60px;
   padding-top: 240px;
   padding-bottom: 240px;
   text-align: center;
 }
 
-body main .course .inner .cmn-title {
+.course {
+  padding-top: 50px;
+}
+
+.inner {
+}
+
+.cmn-title {
   font-size: 40px;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 40px;
 }
 
-body main .course .inner .course-cont .course-list {
+.course-cont {
+  padding-top: 40px;
+}
+
+.course-list {
   margin-left: 30px;
   margin-right: 30px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
-body main .course .inner .course-cont .course-list .course-item {
+.course-item {
+  list-style-type: none;
   width: 290px;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  box-shadow: 0px 3px 6px #00000029;
 }
 
-body main .course .inner .course-cont .course-list .course-item:nth-child(n + 2) {
+.course-item:nth-child(n + 2) {
   margin-left: 20px;
 }
 
-body main .course .inner .course-cont .course-list .course-item .course-item-text {
-  margin: 20px 10px 10px 10px;
+.course-item-image {
 }
 
-body main .course .inner .course-cont .course-list .course-item .course-item-text p {
+.course-item-text {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.course-item-text p {
   font-size: 18px;
 }
 
-body main .course .inner .course-cont .course-list .course-item .course-item-text .course-item-box {
+.course-item-box {
   text-align: center;
   position: relative;
-  margin-top: 40px;
+  margin-top: 48px;
 }
 
-body main .course .inner .course-cont .course-list .course-item .course-item-text .course-item-box:before {
+.course-item-box:before {
   position: absolute;
   content: "";
   width: 80%;
@@ -118,24 +124,23 @@ body main .course .inner .course-cont .course-list .course-item .course-item-tex
   top: -9px;
 }
 
-body main .course .inner .course-cont .course-list .course-item .course-item-text .course-item-box p {
+.course-item-box p {
   font-size: 16px;
 }
 
-body main .course .inner .course-cont .course-list .course-item .course-item-text .course-item-box p:nth-child(2) {
+.course-item-box p:nth-child(2) {
   margin-top: 8px;
 }
 
-body main .course .inner .course-btn {
+.course-btn {
   margin-top: 50px;
   text-align: center;
 }
 
-body main .course .inner .course-btn a {
-  font-size: 18px;
+.course-btn a {
+  box-shadow: 0px 3px 6px #00000029;
   width: 310px;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
+  font-size: 18px;
   border: 1px solid #eeeeee;
   display: inline-block;
   padding-top: 17px;
@@ -143,169 +148,159 @@ body main .course .inner .course-btn a {
   border-radius: 5px;
 }
 
-body main .teacher {
+.teacher {
   padding-top: 70px;
   padding-bottom: 80px;
 }
 
-body main .teacher .inner .cmn-title {
-  font-size: 40px;
-  text-align: center;
+.inner {
 }
 
-body main .teacher .inner .teacher-cont {
-  padding-top: 45px;
+.teacher-cont {
   padding-left: 120px;
   padding-right: 120px;
 }
 
-body main .teacher .inner .teacher-cont .teacher-list .teacher-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin-left: 120px;
-  margin-right: 120px;
+.teacher-list {
+  padding-top: 45px;
 }
 
-body main .teacher .inner .teacher-cont .teacher-list .teacher-item:nth-child(2) {
+.teacher-item {
+  display: flex;
+  align-items: center;
+}
+
+.teacher-item:nth-child(2) {
   margin-top: 60px;
 }
 
-body main .teacher .inner .teacher-cont .teacher-list .teacher-item .teacher-item-image {
+.teacher-item-image {
   width: 250px;
 }
 
-body main .teacher .inner .teacher-cont .teacher-list .teacher-item .teacher-item-text {
+.teacher-item-text {
   margin-left: 60px;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
+  flex: 1;
 }
 
-body main .teacher .inner .teacher-cont .teacher-list .teacher-item .teacher-item-text .teacher-item-title {
-  font-size: 40px;
-  margin-top: 40px;
-  margin-bottom: 30px;
-}
-
-body main .teacher .inner .teacher-cont .teacher-list .teacher-item .teacher-item-text p {
+.teacher-item-text p {
+  margin-top: 30px;
   font-size: 18px;
 }
 
-body main .contact {
-  background-image: url(../image/contact-bg.png);
+.teacher-item-title {
+  font-size: 40px;
+}
+
+.contact {
+  background-image: url(image/contact-bg.png);
   background-size: cover;
   background-position: center;
   padding-top: 60px;
   padding-bottom: 30px;
-  color: #ffffff;
 }
 
-body main .contact .inner .contact-title {
+.inner {
+}
+
+.contact-title {
   font-size: 36px;
+  color: #fff;
   text-align: center;
 }
 
-body main .contact .contact-text {
+.contact-text {
+  color: #fff;
   text-align: center;
   margin-top: 50px;
   font-size: 16px;
 }
 
-body main .contact .contact-text p {
+.contact-text p {
+  margin-top: 20px;
   line-height: 2;
 }
 
-body main .contact .contact-text p:nth-child(2) {
-  margin-top: 30px;
-}
-
-body main .contact .contact-btn {
-  margin-top: 30px;
+.contact-btn {
   text-align: center;
+  margin-top: 32px;
 }
 
-body main .contact .contact-btn a {
+.contact-btn a {
+  background-color: #dc143c;
+  color: #fff;
   font-size: 16px;
   width: 210px;
-  color: #ffffff;
-  background-color: #dc143c;
-  -webkit-box-shadow: 0px 3px 6px #00000029;
-          box-shadow: 0px 3px 6px #00000029;
-  border-radius: 5px;
-  display: inline-block;
   padding-top: 20px;
   padding-bottom: 20px;
+  display: inline-block;
+  border-radius: 5px;
 }
 
-body .footer {
-  background-color: #000000;
+.footer {
+  background-color: #000;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-body .footer .inner p {
-  color: #ffffff;
+.footer p {
   font-size: 14px;
+  color: #fff;
   text-align: center;
 }
 
-body a {
-  text-decoration: none;
-  color: #000000;
-}
-
-body img {
-  width: 100%;
-  height: auto;
+.inner {
 }
 
 @media only screen and (max-width: 767px) {
-  body .header .header-nav {
+  .header-nav {
     display: none;
   }
-  body main .top .top-title {
+
+  .top-title {
     font-size: 26px;
   }
-  body main .course .inner .course-cont {
-    margin-right: 0;
-    margin-left: 0;
-  }
-  body main .course .inner .course-cont .course-list {
+
+  .course-list {
     display: block;
   }
-  body main .course .inner .course-cont .course-list .course-item {
+
+  .course-item {
     width: 100%;
-    padding-bottom: 30px;
   }
-  body main .course .inner .course-cont .course-list .course-item:nth-child(n + 2) {
+
+  .course-item:nth-child(n + 2) {
     margin-left: 0;
     margin-top: 30px;
   }
-  body main .teacher .inner .teacher-cont {
+
+  .teacher-cont {
     padding-left: 0;
     padding-right: 0;
   }
-  body main .teacher .inner .teacher-cont .teacher-list .teacher-item {
+
+  .teacher-item {
     display: block;
+  }
+
+  .teacher-item-image {
     margin-left: auto;
     margin-right: auto;
-  }
-  body main .teacher .inner .teacher-cont .teacher-list .teacher-item .teacher-item-image {
     width: 280px;
-    margin-left: 50px;
-    margin-right: 50px;
   }
-  body main .teacher .inner .teacher-cont .teacher-list .teacher-item .teacher-item-text {
+
+  .techer-item-text {
     margin-left: 26px;
     margin-right: 26px;
   }
-  body main .teacher .inner .teacher-cont .teacher-list .teacher-item .teacher-item-text .teacher-item-title {
+
+  .teacher-item-title {
     font-size: 24px;
     text-align: center;
+    margin-top: 30px;
+  }
+
+  .course-item-text {
+    padding-bottom: 30px;
   }
 }
-/*# sourceMappingURL=style.css.map */
