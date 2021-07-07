@@ -13,7 +13,8 @@
                 <div class="course-cont">
                     <ul class="course-list">
                         <li class="course-item">
-                            <div class="course-item-image"><img src="./image/cource-figure01.png" alt=""></div>
+                            <div class="course-item-image">
+                                <img src="<?php echo get_template_directory_uri(); ?>./image/cource-figure01.png" alt=""></div>
                             <div class="course-item-text">
                                 <p>WordPressの基礎を理解し、2つ のテーマ開発を目指します。実務 に近い形で学習します。</p>
                                     <div class="course-item-box">
@@ -23,7 +24,8 @@
                             </div>
                         </li>
                         <li class="course-item">
-                            <div class="course-item-image"><img src="./image/cource-figure02.png" alt=""></div>
+                            <div class="course-item-image">
+                                <img src="<?php echo get_template_directory_uri(); ?>./image/cource-figure02.png" alt=""></div>
                             <div class="course-item-text">
                                     <p>Shopifyを用いて3つのECサイト を構築することを通してと応用を 学んでいきます。</p>
                                     <div class="course-item-box">
@@ -34,7 +36,7 @@
                         </li>
                         <li class="course-item">
                             <div class="course-item-image">
-                                <img src="<?php echo get_template_directory_url(); ?>./image/cource-figure03.png" alt=""></div>
+                                <img src="<?php echo get_template_directory_uri(); ?>./image/course-figure03.png" alt=""></div>
                             <div class="course-item-text">
                                     <p>RubyとRuby on Railsを3つの アプリケーションを開発すること を通して学びます。</p>
                                     <div class="course-item-box">
@@ -44,7 +46,8 @@
                             </div>
                         </li>
                         <li class="course-item">
-                            <div class="course-item-image"><img src="./image/cource-figure04.png" alt=""></div>
+                            <div class="course-item-image">
+                                <img src="<?php echo get_template_directory_uri(); ?>./image/cource-figure04.png" alt=""></div>
                             <div class="course-item-text">
                                     <p>Pythonの基礎を学習した後、3 つの機械学習プログラムを作成す ることを目指します。</p>
                                     <div class="course-item-box">
