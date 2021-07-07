@@ -33,7 +33,8 @@
                             </div>
                         </li>
                         <li class="course-item">
-                            <div class="course-item-image"><img src="./image/cource-figure03.png" alt=""></div>
+                            <div class="course-item-image">
+                                <img src="<?php echo get_template_directory_url(); ?>./image/cource-figure03.png" alt=""></div>
                             <div class="course-item-text">
                                     <p>RubyとRuby on Railsを3つの アプリケーションを開発すること を通して学びます。</p>
                                     <div class="course-item-box">
