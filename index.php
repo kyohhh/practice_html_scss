@@ -14,7 +14,7 @@
                     <ul class="course-list">
                         <li class="course-item">
                             <div class="course-item-image">
-                                <img src="<?php echo get_template_directory_uri(); ?>./image/cource-figure01.png" alt=""></div>
+                                <img src="<?php echo get_template_directory_uri(); ?>/image/cource-figure01.png" alt=""></div>
                             <div class="course-item-text">
                                 <p>WordPressの基礎を理解し、2つ のテーマ開発を目指します。実務 に近い形で学習します。</p>
                                     <div class="course-item-box">
@@ -25,7 +25,7 @@
                         </li>
                         <li class="course-item">
                             <div class="course-item-image">
-                                <img src="<?php echo get_template_directory_uri(); ?>./image/cource-figure02.png" alt=""></div>
+                                <img src="<?php echo get_template_directory_uri(); ?>/image/cource-figure02.png" alt=""></div>
                             <div class="course-item-text">
                                     <p>Shopifyを用いて3つのECサイト を構築することを通してと応用を 学んでいきます。</p>
                                     <div class="course-item-box">
@@ -36,7 +36,7 @@
                         </li>
                         <li class="course-item">
                             <div class="course-item-image">
-                                <img src="<?php echo get_template_directory_uri(); ?>./image/course-figure03.png" alt=""></div>
+                                <img src="<?php echo get_template_directory_uri(); ?>/image/cource-figure03.png" alt=""></div>
                             <div class="course-item-text">
                                     <p>RubyとRuby on Railsを3つの アプリケーションを開発すること を通して学びます。</p>
                                     <div class="course-item-box">
@@ -47,7 +47,7 @@
                         </li>
                         <li class="course-item">
                             <div class="course-item-image">
-                                <img src="<?php echo get_template_directory_uri(); ?>./image/cource-figure04.png" alt=""></div>
+                                <img src="<?php echo get_template_directory_uri(); ?>/image/cource-figure04.png" alt=""></div>
                             <div class="course-item-text">
                                     <p>Pythonの基礎を学習した後、3 つの機械学習プログラムを作成す ることを目指します。</p>
                                     <div class="course-item-box">
@@ -71,14 +71,16 @@
                 <div class="teacher-cont">
                     <ul class="teacher-list">
                         <li class="teacher-item">
-                            <div class="teacher-item-image"><img src="./image/teacher-profile01.png" alt=""></div>
+                            <div class="teacher-item-image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/image/teacher-profile01.png" alt=""></div>
                             <div class="teacher-item-text">
                                 <div class="teacher-item-title">水谷メアリージュン</div>
                                 <p>システムエンジニア歴約20年、プログラミング歴約35年。プログラミング の守備範囲は、 フロントエンド、サーバサイド、Android開発と広く、普段 はシステム開発プロジェクト の管理や後輩の指導を行っています。</p>
                             </div>
                         </li>
                         <li class="teacher-item">
-                            <div class="teacher-item-image"><img src="./image/teacher-profile02.png" alt=""></div>
+                            <div class="teacher-item-image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/image/teacher-profile02.png" alt=""></div>
                             <div class="teacher-item-text">
                                 <div class="teacher-item-title">ジョージ・ウィリアム</div>
                                 <p>IoT技術をベースに、ハードウェアからクラウドまでを広くカバーする他、 小学生から大人 まで幅広く、プログラミングに関する指導経験が多数あります。</p>
