@@ -1,27 +1,4 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-
-<body>
-    <!-- ヘッダー -->
-    <header class="header">
-        <img class="header-logo" src="./image/logo.png" alt="コーディングスクールのロゴ">
-        <div class="header-nav">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="#">お問い合わせ</a></li>
-                    <li class="nav-item"><a href="#">ログアウト</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+<?php get_header(); //header.phpを取得 ?>
 
     <main>
         <!-- トップ画像 -->
